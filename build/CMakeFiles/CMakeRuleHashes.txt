@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+e486245b3f49b40262e3319edb91783e aboutwidget.moc
+a6034c153e38ba1318755d6650b889af h3cconfig.moc
+fb19f7e1361d78a382ee613dee5b663b h3cgui.moc
+829601b8bbf386e43e1a2f088a5f6a66 h3cmainwindow.moc
+a0252f2b68ed0cb1b68cb2317566c10f logwidget.moc

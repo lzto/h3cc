@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lovewilliam/Develop/h3cc/8021xframe.h
+string
+-
+
+/home/lovewilliam/Develop/h3cc/h3c8021x.h
+pcap.h
+-
+string.h
+-
+8021xframe.h
+/home/lovewilliam/Develop/h3cc/8021xframe.h
+
+/home/lovewilliam/Develop/h3cc/main.cpp
+h3c8021x.h
+/home/lovewilliam/Develop/h3cc/h3c8021x.h
+8021xframe.h
+/home/lovewilliam/Develop/h3cc/8021xframe.h
+unistd.h
+-
+getopt.h
+-
+stdlib.h
+-
+stdio.h
+-
+signal.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+string.h
+-
+iostream
+-
+

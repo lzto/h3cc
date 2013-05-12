@@ -1,0 +1,106 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'h3cmainwindow.h'
+**
+** Created: Mon Feb 7 15:49:17 2011
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.7.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../h3cmainwindow.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'h3cmainwindow.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.7.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_h3cMainWindow[] = {
+
+ // content:
+       5,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       9,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      15,   14,   14,   14, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      28,   14,   14,   14, 0x08,
+      40,   14,   14,   14, 0x08,
+      51,   14,   14,   14, 0x08,
+      66,   14,   14,   14, 0x08,
+      84,   14,   14,   14, 0x08,
+      96,   14,   14,   14, 0x08,
+     141,   14,   14,   14, 0x08,
+     154,   14,   14,   14, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_h3cMainWindow[] = {
+    "h3cMainWindow\0\0signal_log()\0slot_exit()\0"
+    "slot_log()\0slot_connect()\0slot_disconnect()\0"
+    "slot_tray()\0slot_tray(QSystemTrayIcon::ActivationReason)\0"
+    "slot_about()\0slot_gotMsg(QString)\0"
+};
+
+const QMetaObject h3cMainWindow::staticMetaObject = {
+    { &QMainWindow::staticMetaObject, qt_meta_stringdata_h3cMainWindow,
+      qt_meta_data_h3cMainWindow, 0 }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &h3cMainWindow::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *h3cMainWindow::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *h3cMainWindow::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_h3cMainWindow))
+        return static_cast<void*>(const_cast< h3cMainWindow*>(this));
+    return QMainWindow::qt_metacast(_clname);
+}
+
+int h3cMainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QMainWindow::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: signal_log(); break;
+        case 1: slot_exit(); break;
+        case 2: slot_log(); break;
+        case 3: slot_connect(); break;
+        case 4: slot_disconnect(); break;
+        case 5: slot_tray(); break;
+        case 6: slot_tray((*reinterpret_cast< QSystemTrayIcon::ActivationReason(*)>(_a[1]))); break;
+        case 7: slot_about(); break;
+        case 8: slot_gotMsg((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        default: ;
+        }
+        _id -= 9;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void h3cMainWindow::signal_log()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+QT_END_MOC_NAMESPACE

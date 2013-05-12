@@ -1,0 +1,14 @@
+to install following the routine below
+
+
+mkdir bulid
+cd build
+cmake ..
+make
+make install
+
+and there is a static linked executable in the build-static
+but it is a CLI prog.:)
+
+
+

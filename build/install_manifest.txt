@@ -1,0 +1,8 @@
+/usr/lib/libh3c8021x.so.1.0
+/usr/lib/libh3c8021x.so.2
+/usr/lib/libh3c8021x.so
+/usr/include/h3c8021x.h
+/usr/bin/h3cc
+/usr/bin/h3cgui
+/usr/share/h3cc/icons/h3cc128x128.png
+/usr/share/h3cc/icons/h3cc.png
